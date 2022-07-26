@@ -16,10 +16,11 @@ class Stack:
 
     def pop(self):
         if not self.is_empty():
-            # Write code here
+            self.items.pop(-1)
 
     def status(self):
-        # Write code here
+        for element in self.item:
+            print(element)
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
