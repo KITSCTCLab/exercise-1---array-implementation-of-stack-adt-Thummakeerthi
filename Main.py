@@ -5,7 +5,7 @@ class Stack:
         self.size = size
 
     def is_empty(self):
-        return len(self.items)=0
+        return len(self.items)==0
 
     def is_full(self):
         # Write code here
